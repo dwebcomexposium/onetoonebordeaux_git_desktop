@@ -1,0 +1,18 @@
+/* Demande admission 2018 */
+
+.content240489 #zone2 > div > div.article-intro {
+   width: 65em; 
+}
+
+/* Iframe Typeform widget */
+
+.typeform-widget {
+  width: 100%; 
+  height: 400px;
+  margin-left: 30%;
+  margin-top: -5%;
+}
+
+.content240489 p {
+   font-size: 17px; 
+}

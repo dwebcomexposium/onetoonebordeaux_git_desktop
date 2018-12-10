@@ -1857,10 +1857,11 @@ p { line-height: 2; }
 
 .section-primary .section-inner:after { content: ''; position: absolute; top: 50%; right: -240px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); background: url(images/circle.png) no-repeat 0 0; width: 449px; height: 443px; z-index: 100;}
 
-.section-primary h1 { position: absolute; bottom: 0; left: 0; width: 100%; border: none; color: #fff; font-family: 'Proxima Nova', sans-serif; font-weight: 700; font-size: 72px; line-height: 1; padding: 42px 30px 64px 82px; margin: 0; letter-spacing: 0; }
-.section-primary h1 em { display: block; font-style: normal; font-weight: 300; font-size: 19px; margin-bottom: 11px; }
+.section-primary h1, .section-primary h2 { position: absolute; bottom: 0; left: 0; width: 100%; border: none; color: #fff; font-family: 'Proxima Nova', sans-serif; font-weight: 700; font-size: 72px; line-height: 1; padding: 42px 30px 64px 82px; margin: 0; letter-spacing: 0; }
+.section-primary h1 em, .section-primary h2 em { display: block; font-style: normal; font-weight: 300; font-size: 19px; margin-bottom: 11px; }
+.section-primary h1:before, .section-primary h2:before { content: ''; position: absolute; width: 14px; height: 14px; left: 83px; top: 0; border-radius: 50%; background: #c50084; }
 
-.section-primary h1:before { content: ''; position: absolute; width: 14px; height: 14px; left: 83px; top: 0; border-radius: 50%; background: #c50084; }
+
 
 @media (max-width: 1365px) {
 	.section-primary .section-inner { height: 500px; }

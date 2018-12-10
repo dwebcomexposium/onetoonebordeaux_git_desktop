@@ -1973,11 +1973,11 @@ p { line-height: 2; }
 .article-wrapper a:hover { color:#c50084 ; }
 
 .article-wrapper > *, .error-page > * { padding-left: 6.09vw; }
-.article-wrapper h2 { font-family: 'Proxima Nova', sans-serif; font-size: 28px; line-height: 1.32; font-weight: 700; letter-spacing: -0.01em; color: #262626; padding: 0; margin: 0 0 2.9vw; border: 0; clear: both; }
+.article-wrapper h2 { font-family: 'Proxima Nova', sans-serif; font-size: 28px; line-height: 1.32; font-weight: 700; letter-spacing: -0.01em; color: #262626; padding: 0; margin: 3vw 0 2vw; border: 0; clear: both; }
 .article-wrapper h2:after { content: ''; display: inline-block; border-radius: 50%; background: #c50084; width: 14px; height: 14px; margin-left: 22px; }
 
 .article-wrapper h3 { font-size: 27px; font-weight: 700; color: #c50084; margin: 6.4vw 0 3.3vw; line-height: 1; clear: both; }
-.article-wrapper h4 { font-family: 'Proxima Nova', sans-serif; font-size: 17px; line-height: 1.1; font-weight: 700; letter-spacing: 0.1em; color: #fff; text-transform: uppercase; display: inline-block;  background: #262626; padding: 17px 20px; min-width: 304px; text-align: center; font-weight: 300;  margin: 28px 0 3.2vw; }
+.article-wrapper h4 { font-family: 'Proxima Nova', sans-serif; font-size: 17px; line-height: 1; font-weight: 700; letter-spacing: 0.1em; color: #fff; text-transform: uppercase; display: inline-block;  background: #262626; padding: 17px 28px; font-weight: 300;  margin: 28px 0 3.2vw; }
 .article-wrapper p { font-size: 20px; line-height: 1.45 !important; font-weight: 300;  margin: 0 0 2.34vw; line-height: 1.8; }
 .article-wrapper ul { padding: 0; margin: 0 0 4.61vw; line-height: 1.71; font-size: 17px;  }
 .article-wrapper ul ul { margin: 0 0 0 4px; }
@@ -2018,11 +2018,11 @@ h1.main-title { font-family: 'Proxima Nova', sans-serif; font-size: 37px; line-h
 .article-wrapper .edito { margin-right: -31.25vw; }
 .article-wrapper .block.edito { margin-bottom: 6vw; }
 
-.article-wrapper .article-intro { margin: 0 0 5.8vw; letter-spacing: -0.02em; }
+.article-wrapper .article-intro { margin: 0 0 3.8vw; letter-spacing: -0.02em; }
 .article-wrapper .at-publication { display: none; }
 
 .article-wrapper .article-content p { font-size: 17px; line-height: 1.71 !important;  }
-.article-wrapper .article-content #eztoc_2_1 + h2 { margin-top: 77px; }
+/*.article-wrapper .article-content #eztoc_2_1 + h2 { margin-top: 77px; }*/
 .article-wrapper .article-content #eztoc_2_2_3_1 + h4 { display: block; background: none; color: #c50084; font-weight: 700; font-size: 27px; text-align: left; padding: 0; text-transform: none; margin: 0 0 20px; padding-top: 10px; letter-spacing: 0; position: relative; }
 .article-wrapper .article-content #eztoc_2_2_3_1 + h4:after { content: ''; position: absolute; top: 155px; left: calc(-6.09vw - 36px); background: url(images/circle8.png) no-repeat 0 0; width: 238px; height: 398px;   }
 .article-wrapper .article-content .block.edito + p { margin-top: -56px; }
@@ -2172,7 +2172,7 @@ h1.main-title { font-family: 'Proxima Nova', sans-serif; font-size: 37px; line-h
 
 .cl-item { display: flex; padding: 0; margin: 0; border: 0; margin: 1.56vw 0 4.84vw 0; }
 .cl-item:after { content: ''; display: table; line-height: 0; clear: both; display: none; }
-.cl-item .cl-item-illust { display: none; }
+.cl-item .cl-item-illust { width: auto; }
 
 .cl-item [itemprop="address"] { display: none; }
 .cl-item .cl-item-title { font-size: 1.56vw; font-weight: 600; color: #c50084; margin: 0 0 0.47vw; }

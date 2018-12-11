@@ -359,13 +359,13 @@
 			$('.section-primary .section-inner').css( 'background-image', 'url( ' + $('.section-primary img').attr('src')  + ' )' )
 		}
 
-//		$('.block.news').append( '<span class="circle skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".list-articles.comite"></span>' )
-//
-//		$('.block.comite .event').append( '<span class="circle-alt skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".list-articles.comite"></span>' )
-//
-//		$('.section-tertiary').append( '<span class="circle-alt skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".list-articles.comite"></span>' )
-//
-//		$('.block.partner.part').append( '<span class="circle-alt skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".list-articles.comite"></span>' )
+		$('.block.news').append( '<span class="circle skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".event"></span>' )
+
+		$('.block.comite .event').append( '<span class="circle-alt skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".event"></span>' )
+
+		$('.section-tertiary').append( '<span class="circle-alt skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".event"></span>' )
+
+		$('.block.partner.part').append( '<span class="circle-alt skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".event"></span>' )
 
 		$('.section-primary .section-inner').append( '<span class="circle-alt skrollable skrollable-between" data-bottom-top="transform: translate(0, 20.25vw);" data-top-bottom="transform: translate(0, -20.25vw);" data-anchor-target=".section-primary"></span>' )
 

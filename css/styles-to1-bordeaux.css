@@ -1976,8 +1976,6 @@ p { line-height: 2; }
 .article-wrapper h2 { font-family: 'Proxima Nova', sans-serif; font-size: 28px; line-height: 1.32; font-weight: 700; letter-spacing: -0.01em; color: #262626; padding: 0; margin: 3vw 0 2vw; border: 0; clear: both; }
 .article-wrapper h2:after { content: ''; display: inline-block; border-radius: 50%; background: #c50084; width: 14px; height: 14px; margin-left: 22px; }
 
-.article-wrapper h2:after { content: ''; display: inline-block; border-radius: 50%; background: #c50084; width: 14px; height: 14px; margin-left: 22px; }
-
 .article-wrapper h3 { font-size: 27px; font-weight: 700; color: #c50084; margin: 4.4vw 0 2.3vw; line-height: 1; clear: both; }
 .article-wrapper h4 { font-family: 'Proxima Nova', sans-serif; font-size: 17px; line-height: 1; font-weight: 700; letter-spacing: 0.1em; color: #fff; text-transform: uppercase; display: inline-block;  background: #262626; padding: 17px 28px; font-weight: 300;  margin: 28px 0 3.2vw; }
 .article-wrapper p { font-size: 20px; line-height: 1.45 !important; font-weight: 300;  margin: 0 0 2.34vw; line-height: 1.8; }
@@ -2790,7 +2788,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 
 .slider-main-outer .slider-item .la-item-tag { padding: 0; position: static; background: none; font-family: 'Always In My Heart', sans-serif; text-transform: none; font-size: 37px; letter-spacing: 0.02em; margin-bottom: 9px; display: block; }
 .slider-main-outer .slider-item .la-item-tag:after { content: ''; display: inline-block; width: 15px; height: 15px; background: #c50084; border-radius: 50%; margin-left: 20px;  }
-.slider-main-outer .slider-item .la-item-title { font-weight: 700; font-size: 55px; line-height: 1.07; text-transform: uppercase; padding-left: 5px; letter-spacing: 0.06em; margin-bottom: 47px; }
+.slider-main-outer .slider-item .la-item-title { font-weight: 700; font-size: 55px; font-size: 45px;  line-height: 1.07; text-transform: uppercase; padding-left: 5px; letter-spacing: 0.06em; margin-bottom: 47px; }
 .slider-main-outer .slider-item .la-item-title a { color: #fff; }
 .slider-main-outer .slider-item .la-item-title a:hover { text-decoration: none; }
 
@@ -2820,23 +2818,36 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .slider-main-outer .la-item-content div.la-item-title { transition-delay: .3s !important; }
 .slider-main-outer .la-item-content .la-item-btn { transition-delay: .6s !important; }
 
+
+.slider-main-outer .la-item { max-height: 650px; height: auto; overflow: hidden; }
+.slider-main-outer .slider-item img { height: auto; }
+
+
+
 @media (max-width: 1365px) {
-	.slider-main-outer .la-item { height: 500px; }
+	.slider-main-outer .slider-item .la-item-content { padding: 30px 0 0 40px; }
+	.slider-main-outer .slider-paging { padding-left: 40px; }
 }
 
 @media (max-width: 1199px) {
 	.slider-main-outer:after { top: 40px; right: -199px; width: 374px; height: 369px; -webkit-background-size: 100% 100%; background-size: 100% 100%; }	
+
+	.slider-main-outer .slider-item .la-item-tag { font-size: 30px; }
+	.slider-main-outer .slider-item .la-item-title { font-size: 35px; margin-bottom: 27px; }
 }
 
 @media (max-width: 1023px) {
 	.slider-main-outer .slider-item .la-item-content { width: 500px; padding: 50px 0 0 20px; }
+	.slider-main-outer .slider-item .la-item-tag { font-size: 28px; }
+	.slider-main-outer .slider-item .la-item-title { font-size: 33px; }
 }
 
 @media (max-width: 767px) {
 	.slider-main-outer { margin: 0 -20px; }
 	.slider-main-outer:after { display: none; }
-	.slider-main-outer .la-item { height: 440px; }
+	.slider-main-outer .la-item { min-height: 440px; }
 	.slider-main-outer .slider-item .la-item-content { width: 100%; padding: 88px 22px 20px; }
+	.slider-main-outer .slider-item { background-size: cover; }
 
 	.slider-main-outer .slider-item .la-item-tag { font-size: 27px; margin-bottom: 3px; }
 	.slider-main-outer .slider-item .la-item-tag:after { width: 8px; height: 8px; }

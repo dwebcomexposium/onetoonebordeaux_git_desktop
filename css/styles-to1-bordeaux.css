@@ -2859,4 +2859,6 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 
 #zone2 > .block:first-child { opacity: 0; }
 
-.front .section-tertiary { display: none; }
+.front .section-tertiary, .front .partner, .front .participants, .site-banner .lang-switcher { display: none; }
+.site-banner .main-navigation { float: right; padding: 0 2.7vw 0 0;  }
+

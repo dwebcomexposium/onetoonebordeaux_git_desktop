@@ -412,6 +412,10 @@
 		    setTimeout(function() {
 		        $('.main-slider').carouFredSel({
 		            width: '100%',
+		            swipe: true,						
+		            swipe: {
+		            	onTouch: true
+		            },
 		            auto: {
 		                play: true,
 		                timeoutDuration: 7000

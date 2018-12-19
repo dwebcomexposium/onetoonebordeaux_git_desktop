@@ -301,7 +301,7 @@ p { line-height: 2; }
 	Logo
 \* ------------------------------------------------------------ */
 
-.logo { display: inline-block; width: 186px; height: 54px; border: 0; vertical-align: middle; background-image: url(images/logo-new.png); font-size: 0; line-height: 0; text-indent: -4004px;  margin: 22px 0 0 5px; -webkit-background-size: 100% 100%; background-size: 100% 100%; 
+.logo { display: inline-block; width: 184px; height: 54px; border: 0; vertical-align: middle; background-image: url(images/logo.svg); font-size: 0; line-height: 0; text-indent: -4004px;  margin: 22px 0 0 5px; -webkit-background-size: 100% 100%; background-size: 100% 100%; 
 	-webkit-transition: width .3s, height .3s, background-image .3s; 
 	     -o-transition: width .3s, height .3s, background-image .3s; 
 	        transition: width .3s, height .3s, background-image .3s; 

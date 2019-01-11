@@ -345,7 +345,7 @@ p { line-height: 2; }
 	Nav
 \* ------------------------------------------------------------ */
 
-.nav { position: absolute; width: 19vw; top: 0; left: 100%; bottom: 0; overflow: hidden; font-size: 14px; font-weight: 600; letter-spacing: 0.02em; color: #fff; text-align: center; text-transform: uppercase; background: #41002c; max-height: 90px; }
+.nav { position: absolute; width: 19vw; top: 0; left: 100%; bottom: 0; overflow: hidden; font-size: 14px; font-weight: 600; letter-spacing: 0.02em; color: #fff; text-align: center; text-transform: uppercase; background: #232745; max-height: 90px; }
 
 .nav ul { padding: 0; list-style-type: none; text-align: center; }
 .nav ul:after { content: ''; line-height: 0; display: table; clear: both; }
@@ -438,7 +438,7 @@ p { line-height: 2; }
 	Section
 \* ------------------------------------------------------------ */
 
-.section { position: fixed; width: 19%; height: 100%; top: 0; right: 0; background: #41002c; z-index: 10; }
+.section { position: fixed; width: 19%; height: 100%; top: 0; right: 0; background: #232745; z-index: 10; }
 
 .section .dates { font-family: 'Proxima Nova', sans-serif; font-size: 78px; line-height: 1.07; font-weight: 700; color: #fff; text-transform: uppercase; position: absolute; width: 533px; top: 325px; left: -45px; padding: 0; margin: -37px 0 0 0; border: 0; 
 	-webkit-transform: rotate(90deg); 
@@ -2748,7 +2748,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .slider-main-outer { position: relative; z-index: 10; overflow: hidden; margin-bottom: -1px; }
 .slider-main-outer:after { content: ''; position: absolute; top: 34px; right: -239px; background: url(images/circle.png) no-repeat 0 0; width: 449px; height: 443px; z-index: 100; }
 
-.slider-main-outer .la-item { background: #41002c; height: 650px; position: relative; overflow: hidden; padding: 0; margin: 0; }
+.slider-main-outer .la-item { background: #232745; height: 650px; position: relative; overflow: hidden; padding: 0; margin: 0; }
 .slider-main-outer .la-item:before {  }
 
 .slider-main-outer .la-item.topic_video .btn-primary { background: none !important; padding: 0 0 0 60px; border: none; min-width: 0; max-width: 140px; text-align: left; }

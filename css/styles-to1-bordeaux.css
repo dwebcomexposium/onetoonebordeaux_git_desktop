@@ -2827,10 +2827,13 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .slider-main-outer .la-item { max-height: 650px; height: auto; overflow: hidden; }
 .slider-main-outer .slider-item img { height: auto; }
 
-.slider-main-outer .main-slider:before { content: ''; position: absolute; top: 0; left: 0; background: url(images/shadow.png) no-repeat 0 0; width: 100%; height: 100%; background-size: cover; z-index: 50; }
+.slider-main-outer .main-slider:before { content: ''; position: absolute; top: 0; left: 0; background: url(images/shadow-b.png) no-repeat 0 0; width: 100%; height: 100%; background-size: cover; z-index: 50; }
+
+
+
+
 .slider-main-outer .slider-paging { z-index: 55; }
 .slider-main-outer .slider-item .la-item-content { z-index: 55; }
-
 
 
 @media (max-width: 1365px) {

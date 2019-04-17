@@ -2881,3 +2881,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 #zone2 > .block:first-child { opacity: 0; }
 
 .front .section-tertiary, .front .partner, .front .participants { display: none; }
+
+.section .socials {
+    top: 485px;
+ }
